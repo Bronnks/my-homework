@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d20a5ee-34d6-43c3-9831-d7af31dd8c64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hw04_07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw04_08.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "Python.hw04_05.executor": "Run",
     "Python.hw04_06.executor": "Run",
     "Python.hw04_07.executor": "Run",
+    "Python.hw04_08.executor": "Run",
     "Python.hw4_02.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
