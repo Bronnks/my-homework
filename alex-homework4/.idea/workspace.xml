@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d20a5ee-34d6-43c3-9831-d7af31dd8c64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hw04_10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw04_08.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw04_08.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
     "Python.hw04_06.executor": "Run",
     "Python.hw04_07.executor": "Run",
     "Python.hw04_08.executor": "Run",
+    "Python.hw04_10.executor": "Run",
     "Python.hw4_02.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,6 +52,11 @@
     "last_opened_file_path": "C:/Users/Alex/Documents/GitHub/my-homework2/alex-homework4"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Documents\GitHub\my-homework2\alex-homework4" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
