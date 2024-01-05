@@ -1,12 +1,6 @@
 lst = input().split('. ')
-dct = {}
 
 for i in range(len(lst)):
-    res = lst[i].split()
-    dct[i+1] = len(res)
-
-
-for key, value in dct.items():
-    # print(f'Sentence {key} has {value} words.', end = ' ')
-    print('Sentence {} has {} words.'.format(key, value), end=' ')
-    # print('Sentence %s has %s words.' % (key, value), end=' ')
+    # print('Sentence {} has {} words.'.format(i+1, len(lst[i].split())), end=' ')
+    # print(f'Sentence {i+1} has {len(lst[i].split())} words.', end = ' ')
+    print('Sentence %s has %s words.' % (i + 1, len(lst[i].split())), end=' ')
