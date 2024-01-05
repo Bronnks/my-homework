@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d20a5ee-34d6-43c3-9831-d7af31dd8c64" name="Changes" comment="" />
+    <list default="true" id="6d20a5ee-34d6-43c3-9831-d7af31dd8c64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../alex-homework5/hm05_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.hm05_01.executor&quot;: &quot;Run&quot;,
     &quot;Python.hm4_01.executor&quot;: &quot;Run&quot;,
     &quot;Python.hw04_03.executor&quot;: &quot;Run&quot;,
     &quot;Python.hw04_04.executor&quot;: &quot;Run&quot;,
@@ -47,11 +51,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Documents/GitHub/my-homework2/alex-homework4&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Documents/GitHub/my-homework2/alex-homework5&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Documents\GitHub\my-homework2\alex-homework5" />
       <recent name="C:\Users\Alex\Documents\GitHub\my-homework2\alex-homework4" />
     </key>
   </component>
