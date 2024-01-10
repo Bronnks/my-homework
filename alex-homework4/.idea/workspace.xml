@@ -33,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.hm05_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hm4_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_07.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_08.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_09-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_09.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw04_10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw4_02.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Documents/GitHub/my-homework2/alex-homework5&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.hm05_01.executor": "Run",
+    "Python.hm4_01.executor": "Run",
+    "Python.hw04_03.executor": "Run",
+    "Python.hw04_04.executor": "Run",
+    "Python.hw04_05.executor": "Run",
+    "Python.hw04_06.executor": "Run",
+    "Python.hw04_07.executor": "Run",
+    "Python.hw04_08.executor": "Run",
+    "Python.hw04_09-2.executor": "Run",
+    "Python.hw04_09.executor": "Run",
+    "Python.hw04_10.executor": "Run",
+    "Python.hw4_02.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Alex/Documents/GitHub/my-homework2/alex-homework6"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\Documents\GitHub\my-homework2\alex-homework5" />
