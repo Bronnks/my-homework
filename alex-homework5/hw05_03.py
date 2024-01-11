@@ -1,4 +1,4 @@
-lst = input().split('. ')
+lst = input().replace('. ', '.').rstrip('.').split('.')
 res1, res2, res3 = '', '', ''
 for i in range(len(lst)):
     res1 += 'Sentence {} has {} words. '.format(i + 1, len(lst[i].split()))
