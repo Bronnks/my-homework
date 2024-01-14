@@ -9,9 +9,10 @@ def max_min(lst):
     print(f'Минимальное = {min_num}, максимальное = {max_num}')
 
 # когда вводится просто строка с числами
-# test = list(map(float, input('Введите числа в одну строку через пробел - ').split()))
+test = list(map(float, input('Введите числа в одну строку через пробел - ').split()))
 
 # когда вводится список со скобками
-test = [float(i) for i in input()[1:-1].split(",")]
+# test = [float(i) for i in input()[1:-1].split(",")]
+
 max_min(test)
 
