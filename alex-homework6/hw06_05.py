@@ -1,6 +1,5 @@
 import copy
 
-
 def transpor_massive(lst):
     lst2 = copy.deepcopy(lst)
     for i in range(len(lst)):
