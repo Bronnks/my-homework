@@ -1,7 +1,16 @@
 from collections import Counter
-lst = input().split('. ')
-cnt = Counter()
-for i in range(len(lst)):
-    cnt[i] = len(lst[i].split())
-for key, value in cnt.items():
-    print(f'Sentence {key+1} has {value} words.', end = ' ')
+
+def func(text):
+    text = text.split('.')
+    count = 1
+    for i in range(len(text)):
+
+        c = Counter(text[i].split())
+        if len(c) == 0:
+            continue
+        print(f'Sentence {count} has {len(c)} words.', end=' ')
+        count +=1
+
+
+for i in ['', ' ', ' . ', 'Sentence', 'Sentence 2', 'Sentence 3.', 'Sentence 4. Sentence']:
+    func(i)
