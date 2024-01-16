@@ -1,7 +1,14 @@
 def create_dict(lst):
-    dct = {key:value for (key, value) in j.split() for j in lst}
+    split_list(lst)
+    dct = {i[0]: int(i[-1]) for i in lst}
     print(dct)
 
 
-test = 'a 1, b 2, c 3'
+def split_list(lst):
+    for i in range(len(lst)):
+        lst[i] = lst[i].split()
+    return lst
+
+
+test = input('Введите список значений через запятую - ').split(',')
 create_dict(test)
