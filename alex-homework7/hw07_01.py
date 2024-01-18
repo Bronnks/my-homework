@@ -1,7 +1,7 @@
 def minmax(lst):
     min_num = lst[0]
     max_num = lst[0]
-    for i in lst:
+    for i in lst[1:]:
         if i < min_num:
             min_num = i
         elif i > max_num:
