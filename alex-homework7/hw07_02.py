@@ -1,7 +1,7 @@
 def multiplication_elem(tpl1, tpl2):
     res = []
-    for i in range(len(tpl1)):
-        res.append(tpl1[i] * tpl2[i])
+    for i, el in enumerate(tpl1):
+        res.append(el * tpl2[i])
     int_or_float(res)
     print(tuple(res))
 
