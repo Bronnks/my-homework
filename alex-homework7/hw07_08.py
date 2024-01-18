@@ -1,6 +1,5 @@
 def union_dict(dct1, dct2):
-    for k in dct2.keys():
-        dct1[k] = dct2[k]
+    dct1.update(dct2)
     print(dct1)
 
 
