@@ -1,7 +1,7 @@
 def check_min_max_str(lst):
     min_word = lst[0]
     max_word = lst[0]
-    min_len = 1
+    min_len = len_word(lst[0])
     max_len = 0
     for i in lst:
         length = len_word(i)
@@ -9,7 +9,7 @@ def check_min_max_str(lst):
             max_word, max_len = i, length
         elif length <= min_len:
             min_word, min_len = i, length
-    print(tuple([min_word, max_word]))
+    print(tuple([max_word, min_word]))
 
 
 def len_word(wrd):
