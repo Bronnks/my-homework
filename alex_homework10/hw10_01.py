@@ -1,12 +1,12 @@
 from typing import List
-
+from collections.abc import Callable
 
 def func1(lst: List[int]) -> int:
     summa = sum(func2(lst))
     return summa
 
 
-def slicer(func):  # не нашел как для декораторов делать аннотацию
+def slicer(func: Callable[[List[int]], List[int]]):
     def inner(x: List[int]) -> List[int]:
         if len(x) > 10:
             res = []
