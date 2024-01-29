@@ -3,18 +3,15 @@ from collections.abc import Callable
 from typing import Dict, Union, List, Any
 
 
-def check_value(i: int, v: Any) -> Dict[str, Any]:
-    x = {}
+def check_value(i: str, v: Any) -> Dict[str, Any]:
     if type(v) is str:
-        x = {i.upper(): v.upper()}
+        return {i.upper(): v.upper()}
     else:
-        x = {i.upper(): v}
-    return x
+        return {i.upper(): v}
 
 
 # как я сделал этот декоратор мне самому не нравится, подгонял решение под примеры, а не под правильную логику
-# т.к. логику изменения этих словарей не понимал, а точнее 3 и 4 пример.
-# с другими примерами этот код возможно не будет работать
+# т.к. логику изменения этих словарей не понимал, а точнее 3 и 4 пример
 def upper_case(func: Callable[[], Dict[str, Any]]):
     def wrapper():
         s = func()
@@ -22,8 +19,8 @@ def upper_case(func: Callable[[], Dict[str, Any]]):
         for ind, val in s.items():
             d.update(check_value(ind, val))
         s = deepcopy(d)
-        for ind, val in s.items():
-            if type(val) is list:
+        for ind, val in s.items():  # а точнее я не смог придумать рекурсию
+            if type(val) is list:   
                 for i, v in enumerate(val):
                     if type(v) is dict:
                         for b, c in v.items():
