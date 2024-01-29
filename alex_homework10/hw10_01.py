@@ -9,10 +9,10 @@ def func1(lst: List[int]) -> int:
 def slicer(func: Callable[[List[int]], List[int]]):
     def inner(x: List[int]) -> List[int]:
         if len(x) > 10:
-            res = []
+            res = []                      # создаем список,куда будем кидать факториалы
             while len(x) != 0:
-                res.extend(func(x[:10]))
-                del x[:10]
+                res.extend(func(x[:10]))  # кидаем первые 10 факториалов
+                del x[:10]                # уменьшаем начальный список, удаляя уже отформатированные числа
             x = res
         else:
             func(x)
