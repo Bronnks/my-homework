@@ -20,7 +20,7 @@ def upper_case(func: Callable[[], Dict[str, Any]]):
             d.update(check_value(ind, val))
         s = deepcopy(d)
         for ind, val in s.items():  # а точнее я не смог придумать рекурсию
-            if type(val) is list:   
+            if type(val) is list:
                 for i, v in enumerate(val):
                     if type(v) is dict:
                         for b, c in v.items():
