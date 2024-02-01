@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfc969d9-b499-438f-a333-95b435d130bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hw10_03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw10_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw10_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw10_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw10_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw10_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw10_03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.decorator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw10_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw10_02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw10_03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Documents/GitHub/my-homework2/alex_homework10&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.decorator.executor": "Run",
+    "Python.file.executor": "Run",
+    "Python.hw10_01.executor": "Run",
+    "Python.hw10_02.executor": "Run",
+    "Python.hw10_03.executor": "Run",
+    "Python.hw10_04.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Alex/Documents/GitHub/my-homework2/alex-homework11"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,16 +67,5 @@
       <updated>1706169620741</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
