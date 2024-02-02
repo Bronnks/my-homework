@@ -1,3 +1,14 @@
+def check_res_kilo(res):
+    if res >= 1000 or res < 0:
+        raise ValueError
+    else:
+        return res
+
+def check_res_lb(res):
+    if res >= 14 or res < 0:
+        raise ValueError
+    else:
+        return res
 class Kilo:
     def __init__(self, value):
         if value < 0 or value >= 1000:
@@ -13,29 +24,31 @@ class Kilo:
 
     def raise_value(self, n):
         if isinstance(n, int) or isinstance(n, float):
-            return self.value + n
+            res = self.value + n
+            return check_res_kilo(res)
         else:
             raise ValueError
 
     def __add__(self, other):
         if isinstance(self, Kilo) and isinstance(other, Kilo):
-            return self.value + other.value
+            res = self.value + other.value
         elif isinstance(self, Kilo) and isinstance(other, Lb):
-            return self.value + other.kilo
+            res = self.value + other.kilo
         elif isinstance(self, Kilo) and (isinstance(other, int) or isinstance(other, float)):
-            return self.value + other
+            res = self.value + other
         else:
             raise ValueError
-
+        return check_res_kilo(res)
     def __sub__(self, other):
         if isinstance(self, Kilo) and isinstance(other, Kilo):
-            return self.value + other.value
+            res = self.value - other.value
         elif isinstance(self, Kilo) and isinstance(other, Lb):
-            return self.value + other.kilo
+            res = self.value - other.kilo
         elif isinstance(self, Kilo) and (isinstance(other, int) or isinstance(other, float)):
-            return self.value + other
+            res = self.value - other
         else:
             raise ValueError
+        return check_res_kilo(res)
 
 
 class Lb:
@@ -53,27 +66,29 @@ class Lb:
 
     def raise_value(self, n):
         if isinstance(n, int) or isinstance(n, float):
-            return self.value + n
+            res = self.value + n
+            return check_res_lb(res)
         else:
             raise ValueError
 
     def __add__(self, other):
         if isinstance(self, Lb) and isinstance(other, Lb):
-            return self.value + other.value
+            res = self.value + other.value
         elif isinstance(self, Lb) and isinstance(other, Kilo):
-            return self.value + other.lb
+            res = self.value + other.lb
         elif isinstance(self, Lb) and (isinstance(other, int) or isinstance(other, float)):
-            return self.value + other
+            res = self.value + other
         else:
             raise ValueError
+        return check_res_lb(res)
 
     def __sub__(self, other):
         if isinstance(self, Lb) and isinstance(other, Lb):
-            return self.value - other.value
+            res = self.value - other.value
         elif isinstance(self, Lb) and isinstance(other, Kilo):
-            return self.value - other.lb
+            res = self.value - other.lb
         elif isinstance(self, Lb) and (isinstance(other, int) or isinstance(other, float)):
-            return self.value - other
+            res = self.value - other
         else:
             raise ValueError
-
+        return check_res_lb(res)
