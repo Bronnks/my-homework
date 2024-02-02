@@ -11,8 +11,7 @@ def check_res_lb(res):
         return res
 class Kilo:
     def __init__(self, value):
-        if value < 0 or value >= 1000:
-            raise ValueError
+        check_res_kilo(value)
         self.value = value
         self.lb = round(self.value * 2.2046, 2)
 
@@ -53,8 +52,7 @@ class Kilo:
 
 class Lb:
     def __init__(self, value):
-        if value < 0 or value >= 14:
-            raise ValueError
+        check_res_lb(value)
         self.value = value
         self.kilo = round(self.value * 0.454, 2)
 
