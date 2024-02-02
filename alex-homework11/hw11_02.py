@@ -6,11 +6,6 @@ class Immutable:
         return instance
     def get_value(self):
         return self.__value
-    def __setattr__(self, key, value):
-        if key == '__value':
-            print('no change')
-            return None
-        super().__setattr__(key, value)
 
     def __delattr__(self, item):
         if item == '__value':
