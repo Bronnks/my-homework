@@ -1,9 +1,10 @@
+from typing import Self, Any
 class Task:
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.task_list = []
 
-    def add_task(self, value):
+    def add_task(self, value: str) -> None:
         try:
             if len(self.task_list) > 19:
                 raise Exception
@@ -12,7 +13,7 @@ class Task:
         except Exception:
             print('Список задач переполнен.')
 
-    def remove_task(self, value):
+    def remove_task(self, value: str) -> None:
         if not self.task_list:
             print('Список пуст, добавьте задачу сначала.')
             return
