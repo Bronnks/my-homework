@@ -15,3 +15,7 @@ alex-homework12/.idea/alex-homework12.iml
 alex-homework12tanks/test.py
 alex-homework12tanks/test.py
 alex-homework12tanks/ammo_rack.py
+alex-homework12tanks/__pycache__/tank.cpython-312.pyc
+alex-homework12tanks/__pycache__/armour.cpython-312.pyc
+alex-homework12tanks/__pycache__/ammo.cpython-312.pyc
+alex-homework12tanks/__pycache__/gun.cpython-312.pyc
