@@ -6,8 +6,8 @@ class Order:
         self.items = items
         self.total = total
 
-    def process(self, database_storage) -> None:
-        database_storage.save(self)
+    def process(self, storage: Storage) -> None:
+        storage.save(self)
 
 
 class Storage(ABC):
